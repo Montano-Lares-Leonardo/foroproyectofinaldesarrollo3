@@ -12,14 +12,19 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="437.0" prefWidth="600.0" style="-fx-background-color: #9DC1E0;" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo2.MainPage">
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="472.0" prefWidth="594.0" style="-fx-background-color: #9DC1E0;" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo2.MainPageController">
 
    <children>
-      <HBox alignment="TOP_RIGHT" prefHeight="41.0" prefWidth="600.0" style="-fx-background-color: #3A3570;">
+      <HBox alignment="TOP_RIGHT" prefHeight="41.0" prefWidth="597.0" style="-fx-background-color: #3A3570;">
          <children>
             <Button fx:id="login" mnemonicParsing="false" style="-fx-background-color: #3A3570;" text="LOG-IN" textFill="#dee8eb">
                <font>
-                  <Font name="Bank Gothic Medium BT" size="16.0" />
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="notif" layoutX="517.0" layoutY="12.0" mnemonicParsing="false" style="-fx-background-color: #3A3570;" text="🔔" textFill="#dee8eb">
+               <font>
+                  <Font size="16.0" />
                </font>
             </Button>
          </children>
@@ -39,7 +44,7 @@
                <children>
                   <Label style="-fx-background-color: #506185;" text="forum" textFill="#dee8eb">
                      <font>
-                        <Font name="Bank Gothic Light BT" size="35.0" />
+                        <Font name="System Bold" size="35.0" />
                      </font>
                      <padding>
                         <Insets bottom="8.0" left="30.0" right="30.0" top="8.0" />
@@ -48,7 +53,7 @@
                   <Separator layoutX="281.0" layoutY="330.0" orientation="VERTICAL" prefHeight="7.0" prefWidth="18.0" style="-fx-background-color: #506185;" />
                   <Button fx:id="post" mnemonicParsing="false" style="-fx-background-color: #506185;" text="Publicar" textFill="#dee8eb">
                      <font>
-                        <Font name="Bank Gothic Medium BT" size="20.0" />
+                        <Font name="System Bold" size="20.0" />
                      </font>
                   </Button>
                   <Separator layoutX="281.0" layoutY="64.0" orientation="VERTICAL" prefHeight="7.0" prefWidth="18.0" style="-fx-background-color: #506185;" />
@@ -58,7 +63,7 @@
                           <columns>
                             <TableColumn fx:id="columnaTitle" editable="false" prefWidth="109.0" sortable="false" text="Titulo" />
                             <TableColumn fx:id="columnaUser" prefWidth="131.0" text="Autor" />
-                              <TableColumn fx:id="columnaText" editable="false" prefWidth="303.0" sortable="false" text="Texto" />
+                              <TableColumn fx:id="columnaText" editable="false" prefWidth="296.79999389648435" sortable="false" text="Texto" />
                           </columns>
                         </TableView>
                      </center>
@@ -69,7 +74,7 @@
                   <Separator layoutX="287.0" layoutY="371.0" orientation="VERTICAL" prefHeight="7.0" prefWidth="18.0" style="-fx-background-color: #506185;" />
                   <Label layoutX="233.0" layoutY="10.0" style="-fx-background-color: #506185;" text="busqueda" textFill="#dee8eb">
                      <font>
-                        <Font name="Bank Gothic Light BT" size="14.0" />
+                        <Font name="System Bold" size="14.0" />
                      </font>
                      <padding>
                         <Insets bottom="2.0" left="8.0" right="8.0" top="2.0" />

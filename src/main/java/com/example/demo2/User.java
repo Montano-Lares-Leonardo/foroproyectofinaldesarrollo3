@@ -17,4 +17,8 @@ public class User {
         this.joinDate = joinDate;
         this.pfp = pfp;
     }
+
+    public int getID() {
+        return userid;
+    }
 }
